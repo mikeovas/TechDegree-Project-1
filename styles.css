@@ -77,15 +77,15 @@ header .my-profile-image:hover {
   transform: scale(1.5) rotate(30deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: rgb(233, 233, 102);
+  color: rgb(10, 1, 31);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: rgb(10, 1, 31);
   color: rgb(233, 233, 102);
 }
 .card {
@@ -206,5 +206,5 @@ a.social:hover {
 }
 
 .copyright {
-  color: blue;
+  color: rgb(10, 1, 31);
 }
