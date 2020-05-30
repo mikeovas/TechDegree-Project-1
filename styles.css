@@ -65,13 +65,15 @@ header {
 header {
   line-height: 1.5;
 }
+
+/* I set the transition to 3s because I like how the profile pic loads*/
 header .my-profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 5px solid rgb(10, 9, 36);
-  transition: all 4s;
+  transition: all 3s;
 }
 header .my-profile-image:hover {
   transform: scale(1.5) rotate(30deg);
