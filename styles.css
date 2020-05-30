@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: rgb(10, 1, 31);
+  background: rgb(60, 107, 240);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -42,8 +42,9 @@ a:hover {
 
 .nav .name {
     display: block;
+    font-weight: 700;
     margin-right: auto;
-    color: #c9ebeb;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +53,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: blue;
 }
 
 header {
@@ -72,23 +73,23 @@ header .my-profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid rgb(10, 9, 36);
+  border: 5px solid rgb(60, 107, 240);
   transition: all 3s;
 }
 header .my-profile-image:hover {
   transform: scale(1.5) rotate(30deg);
 }
 .tag {
-  background-color: rgb(233, 233, 102);
-  color: rgb(10, 1, 31);
+  background-color: rgb(60, 107, 240);
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: rgb(10, 1, 31);
-  color: rgb(233, 233, 102);
+  background-color: rgb(60, 107, 240);
+  color: white;
 }
 .card {
   margin: 30px;
@@ -112,14 +113,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #c9ebeb;
+  color: rgb(30, 107, 240);
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(30, 24, 243);
+  color: white;
 }
 
 footer {
