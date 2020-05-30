@@ -158,9 +158,7 @@ a.social {
 a.twitter {
   background-image: url(images/twitter.svg);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
@@ -211,4 +209,24 @@ a.social:hover {
 
 .copyright {
   color: rgb(10, 1, 31);
+}
+
+a.instagram {
+  color: rgb(119, 219, 189);
+}
+
+#interests-background {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'neuton', sans-serif;
+  background-color: rgb(56, 145, 131);
+}
+.image {
+  display: block;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 50%;
+
 }
