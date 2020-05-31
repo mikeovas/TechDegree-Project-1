@@ -2,7 +2,7 @@
 * { 
   box-sizing: border-box;
 }
-  
+ 
 body {
   margin: 0;
   padding: 0;
@@ -56,7 +56,7 @@ a:hover {
   color: blue;
 }
 
-header {
+.initial {
   text-align: center;
   background: url('images/yukon1.jpg') no-repeat top center ;
   background-size: cover;
@@ -215,13 +215,14 @@ a.instagram {
   color: rgb(119, 219, 189);
 }
 
-#interests-background {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'neuton', sans-serif;
-  background-color: rgb(56, 145, 131);
+.interests {
+ 
+  /*text-align: center;
+  background-size: cover;
+  overflow: hidden;*/
+  padding-top: 60px;
 }
+
 .image {
   display: block;
   border-radius: 10px;
