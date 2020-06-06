@@ -71,7 +71,7 @@ header {
 }
 
 /* Header Stuyles - I set the transition to 3s because I like how the profile pic loads*/
-header .my-profile-image {
+header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -79,7 +79,7 @@ header .my-profile-image {
   border: 5px solid rgb(60, 107, 240);
   transition: all 3s;
 }
-header .my-profile-image:hover {
+header .profile-image:hover {
   transform: scale(1.5) rotate(30deg);
 }
 .tag {
