@@ -70,7 +70,7 @@ header {
   padding-top: 60px;
 }
 
-/* Header Stuyles - I set the transition to 3s because I like how the profile pic loads*/
+/* Header Styles - I set the transition to 3s because I like how the profile pic loads*/
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -216,7 +216,6 @@ a.instagram:hover{
  text-align: left;
  margin: auto;
  padding: 60px;
-
 }
 .image {
   display: block;
@@ -229,8 +228,6 @@ a.instagram:hover{
 .lab {
   margin-left: 10%;
   margin-right: 10%;
-  width: 50%;
-
 }
 .row {
   display: flex;
